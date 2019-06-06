@@ -1,9 +1,11 @@
 const appPink = '#FC5185';
 const appGreen = '#3FC1C9';
+const appLightGreen = '#C7FCFF';
 
 export default {
   appPink,
   appGreen,
+  appLightGreen,
   tabIconDefault: '#ccc',
   tabIconSelected: appPink,
   tabBar: '#fefefe',

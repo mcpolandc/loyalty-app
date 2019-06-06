@@ -3,8 +3,9 @@ import { createStackNavigator, createBottomTabNavigator } from 'react-navigation
 
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import ActivityScreen from '../screens/activity';
+import RewardsScreen from '../screens/RewardsScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 import Colors from '../constants/Colors';
 
 const Home = createStackNavigator({
@@ -22,7 +23,7 @@ Home.navigationOptions = {
 };
 
 const Activity = createStackNavigator({
-  Activity: LinksScreen,
+  Activity: ActivityScreen,
 });
 
 Activity.navigationOptions = {
@@ -36,7 +37,7 @@ Activity.navigationOptions = {
 };
 
 const Rewards = createStackNavigator({
-  Links: LinksScreen,
+  Links: RewardsScreen,
 });
 
 Rewards.navigationOptions = {
@@ -50,7 +51,7 @@ Rewards.navigationOptions = {
 };
 
 const Profile = createStackNavigator({
-  Settings: SettingsScreen,
+  Settings: ProfileScreen,
 });
 
 Profile.navigationOptions = {

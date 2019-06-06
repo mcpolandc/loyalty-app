@@ -10,7 +10,7 @@ import {
 
 import Colors from '../constants/Colors';
 
-const HomeScreen = (props) => (
+const HomeScreen = props => (
   <View style={styles.container}>
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <View style={styles.pointsContainer}>
